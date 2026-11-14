@@ -25,7 +25,7 @@ Research skill ───── selects ─────► Available source tools
                                    Synthesis and next action
 ```
 
-The skill does not make network requests or read project files on its own. It asks the compatible agent to use the available tools. Optional companion skills remain independently installed and maintained.
+The skill does not make network requests or read project files on its own. It asks the compatible agent to use the available tools. Optional companion skills remain independently installed and maintained. Video Digest may use local Whisper when explicitly enabled to produce timestamped speech evidence; Whisper and its weights are not bundled here.
 
 ## Why there is no MCP server
 
