@@ -1,6 +1,6 @@
 # Changelog
 
-Notable changes to SourceWeave Research are recorded here.
+Notable changes to Source-Weave are recorded here.
 
 ## Unreleased
 

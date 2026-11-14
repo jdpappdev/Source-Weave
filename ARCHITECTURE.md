@@ -1,6 +1,6 @@
 # Architecture
 
-SourceWeave is a local-first collection of agent instructions and optional research-record templates. The skill coordinates source selection, evidence handling, synthesis, and handoff. Research tools and specialist skills are supplied by the agent environment.
+Source-Weave is a local-first collection of agent instructions and optional research-record templates. The skill coordinates source selection, evidence handling, synthesis, and handoff. Research tools and specialist skills are supplied by the agent environment.
 
 ## Components
 

@@ -1,6 +1,6 @@
 # Code of Conduct
 
-SourceWeave welcomes constructive contributions from people with different backgrounds, skills, and perspectives.
+Source-Weave welcomes constructive contributions from people with different backgrounds, skills, and perspectives.
 
 ## Expected behavior
 
@@ -17,4 +17,4 @@ Harassment, discrimination, intimidation, personal attacks, doxxing, and sharing
 
 Contact the project owner through the contact options on the [jdpappdev GitHub profile](https://github.com/jdpappdev). Avoid posting personal or sensitive details in a public issue. Reports will be handled as confidentially as practical. Maintainers may remove content or restrict participation to protect the community.
 
-This policy applies in project spaces and when someone represents SourceWeave publicly.
+This policy applies in project spaces and when someone represents Source-Weave publicly.

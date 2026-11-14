@@ -1,6 +1,6 @@
 # Security Policy
 
-SourceWeave currently contains agent instructions and Markdown templates. It does not include a server, executable research tool, or credential-handling component.
+Source-Weave currently contains agent instructions and Markdown templates. It does not include a server, executable research tool, or credential-handling component.
 
 ## Reporting a concern
 

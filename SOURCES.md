@@ -18,4 +18,4 @@ No upstream repository or third-party skill text, examples, code, or assets are 
 
 ## Distribution
 
-Original SourceWeave content is distributed under the MIT License in [LICENSE](LICENSE). This does not grant rights to redistribute third-party materials. Recheck upstream terms before adapting or bundling external content.
+Original Source-Weave content is distributed under the MIT License in [LICENSE](LICENSE). This does not grant rights to redistribute third-party materials. Recheck upstream terms before adapting or bundling external content.

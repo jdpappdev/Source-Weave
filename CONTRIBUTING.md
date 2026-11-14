@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve SourceWeave. Keep the project focused on portable, evidence-aware research practices that work across agent tools.
+Thanks for helping improve Source-Weave. Keep the project focused on portable, evidence-aware research practices that work across agent tools.
 
 ## Before proposing a change
 
