@@ -1,0 +1,17 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+.history/
+
+# Temporary research and private working material
+.env
+.env.*
+!.env.example
+*.private.md
+research-cache/
+tmp/
+temp/
+
