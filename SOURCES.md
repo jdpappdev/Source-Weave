@@ -16,9 +16,11 @@ These assets informed the structure and routing boundaries. Their text and imple
 
 ## Upstream references
 
-No upstream repository or third-party skill text, examples, code, or assets are included in this repository. The optional companion reference below is documented for attribution; no Whisper code or weights are redistributed here.
+No upstream repository or third-party skill text, examples, code, or assets are included in this repository. The optional companion references below document attribution and implementation boundaries; Source-Weave does not redistribute their code or model weights.
 
-- OpenAI Whisper, https://github.com/openai/whisper (release `v20250625`, MIT; checked 2026-11-14). Adapted only as an optional companion recommendation for local timestamped speech transcription in Video Digest. Source-Weave does not bundle or redistribute its code or model weights.
+- OpenAI Whisper, https://github.com/openai/whisper (release `v20250625`, MIT; checked 2026-11-14). Referenced as the optional local timestamped speech-recognition companion in Video Digest.
+- Hugging Face Transformers.js, https://github.com/huggingface/transformers.js (version `3.8.1`, Apache-2.0; checked 2026-11-14). Referenced for browser-based ONNX speech inference; its runtime is fetched by Video Digest rather than bundled here.
+- Xenova Whisper ONNX models, https://huggingface.co/Xenova/whisper-tiny.en (Apache-2.0; checked 2026-11-14). Referenced as the browser route's downloadable model source; model files are not bundled in Source-Weave.
 
 ## Distribution
 
