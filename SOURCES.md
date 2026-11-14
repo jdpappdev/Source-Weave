@@ -8,6 +8,7 @@ This repository formulates a first-party research workflow from existing user-se
 - `transcript-to-experiment`: practice for distinguishing demonstrations, anecdotes, empirical claims, and speculation; checking decision-changing claims; and designing scoped experiments.
 - `youtube-digest`: practice for timestamped video notes, transcript coverage checks, optional visual evidence, and distinguishing observed content from inference.
 - OpenAI Whisper: optional speech-recognition companion used by the Video Digest project when captions are unavailable and the user explicitly opts in. Source code and model weights are not included in Source-Weave; users install the optional dependency and model separately. Whisper transcripts remain machine-generated evidence and may omit or hallucinate words.
+- Hugging Face Transformers.js and the Xenova Whisper ONNX models: optional browser route used by Video Digest to transcribe selected local audio without PyTorch. The browser runtime and selected model are fetched from public hosts when used; no code or weights are bundled in Source-Weave. Audio is processed in the browser and only the generated transcript JSON is sent to the local loopback server.
 - `apply-tutorial`: practice for turning a selected tutorial into a project-specific implementation handoff, inspecting prerequisites, adapting outdated steps, and verifying outcomes.
 - Reusable workflow templates: task briefs, handoffs, evidence records, and measurement rules.
 
