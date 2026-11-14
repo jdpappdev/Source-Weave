@@ -18,4 +18,4 @@ No upstream repository or third-party skill text, examples, code, or assets are 
 
 ## Distribution
 
-No license has been selected. Until one is added, this repository does not grant public reuse rights. Choose a license and review its fit before publishing for others to reuse.
+Original SourceWeave content is distributed under the MIT License in [LICENSE](LICENSE). This does not grant rights to redistribute third-party materials. Recheck upstream terms before adapting or bundling external content.

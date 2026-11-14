@@ -59,6 +59,7 @@ sourceweave-research/
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── CODE_OF_CONDUCT.md
+├── LICENSE
 ├── SECURITY.md
 ├── SOURCES.md
 ├── .gitignore
@@ -81,4 +82,4 @@ SourceWeave provides a research method, not a browser, repository API, transcrip
 
 This is an initial first-party formulation informed by existing workflow practices. It has received a static review, but no controlled comparison has established improvements in research quality or speed. Read [SOURCES.md](SOURCES.md) for provenance and [CHANGELOG.md](CHANGELOG.md) for revisions.
 
-**License:** none selected. Public reuse terms are not defined until a license is chosen. See [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes; review licensing and provenance before public distribution.
+**License:** [MIT](LICENSE) for this repository's original content. Third-party references and companion skills retain their own terms; see [SOURCES.md](SOURCES.md).

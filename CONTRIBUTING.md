@@ -21,6 +21,6 @@ For a workflow change, explain the user problem, the expected behavior, and a co
 - Inspect for secrets, private data, machine-specific paths, stale names, and claims that exceed the evidence.
 - Describe review honestly: a static read-through is not a behavioral evaluation. Do not claim tests or measured improvement unless they were actually performed.
 
-## License status
+## License
 
-This repository currently has no selected license. Do not assume that public visibility grants permission to reuse or redistribute its contents. Maintainers should choose and add a license before inviting public reuse.
+Original project content is provided under the [MIT License](LICENSE). That license does not change the terms of external projects referenced in the skills or catalog. Confirm attribution and license requirements before adapting or redistributing third-party material.
