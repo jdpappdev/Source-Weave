@@ -43,18 +43,23 @@ Compare these workflow claims with primary sources. Tell me what is established,
 | --- | --- | --- |
 | Research web pages and current facts | Source selection, primary-source checks, citations, synthesis | Browser or web research tools provided by the agent environment |
 | Inspect code repositories | Compare documented claims with source, license, and maintenance evidence | Repository browser or GitHub connector |
-| Study a YouTube video | Request transcript coverage checks, timestamps, and visual review when relevant | `youtube-digest` (optional local Whisper fallback) |
+| Study a YouTube video | Request transcript coverage checks, timestamps, and visual review when relevant | `youtube-digest` (optional local Whisper, including browser-based local transcription) |
 | Evaluate AI or productivity advice | Classify claims and design a bounded comparison | `transcript-to-experiment` |
 | Apply a selected tutorial | Carry evidence into a target-project implementation handoff | `apply-tutorial` |
 
 Companion skills and tools are optional; they are not bundled here. When one is unavailable, the agent should continue with available evidence and state the specific limitation.
 
 For local or remote videos without usable captions, the companion Video Digest
-project can optionally generate timestamped speech text with OpenAI Whisper.
-Captions remain preferred; transcription requires an explicit opt-in, and model
-weights require a separate download opt-in. Treat Whisper text as machine
-generated, retain that attribution, and verify important quotations against
-audio. See [SOURCES.md](SOURCES.md) for implementation and provenance.
+project can optionally generate timestamped speech text with Whisper. Captions
+remain preferred and transcription is opt-in. For local media, its browser route
+processes selected audio in the browser, does not upload the audio, and saves
+only generated transcript JSON through a loopback connection. The browser
+runtime and selected model are downloaded from public hosts on first use; this
+route does not use PyTorch. The separate Python/PyTorch route requires its own
+explicit model-download opt-in. Keep all recognition output labeled as machine
+generated and verify important quotations against audio. Do not disable
+operating-system or organization security controls to make a native runtime
+load. See [SOURCES.md](SOURCES.md) for implementation and provenance.
 
 ## Repository contents
 
