@@ -43,7 +43,7 @@ Compare these workflow claims with primary sources. Tell me what is established,
 | --- | --- | --- |
 | Research web pages and current facts | Source selection, primary-source checks, citations, synthesis | Browser or web research tools provided by the agent environment |
 | Inspect code repositories | Compare documented claims with source, license, and maintenance evidence | Repository browser or GitHub connector |
-| Study a YouTube video | Request transcript coverage checks, timestamps, and visual review when relevant | `youtube-digest` (optional local Whisper fallback) |
+| Study a YouTube video | Request transcript coverage checks, timestamps, and visual review when relevant | `youtube-digest` (optional local Whisper, including browser-based local transcription) |
 | Evaluate AI or productivity advice | Classify claims and design a bounded comparison | `transcript-to-experiment` |
 | Apply a selected tutorial | Carry evidence into a target-project implementation handoff | `apply-tutorial` |
 
