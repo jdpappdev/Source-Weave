@@ -16,11 +16,12 @@ These assets informed the structure and routing boundaries. Their text and imple
 
 ## Upstream references
 
-No upstream repository or third-party skill text, examples, code, or assets are included in this repository. The optional companion references below document attribution and implementation boundaries; Source-Weave does not redistribute their code or model weights.
+No upstream repository or third-party skill text, examples, code, or assets are included in this repository. The optional companion and research references below document attribution and boundaries; Source-Weave does not redistribute their code, model weights, or skill contents.
 
 - OpenAI Whisper, https://github.com/openai/whisper (release `v20250625`, MIT; checked 2026-11-14). Referenced as the optional local timestamped speech-recognition companion in Video Digest.
 - Hugging Face Transformers.js, https://github.com/huggingface/transformers.js (version `3.8.1`, Apache-2.0; checked 2026-11-14). Referenced for browser-based ONNX speech inference; its runtime is fetched by Video Digest rather than bundled here.
 - Xenova Whisper ONNX models, https://huggingface.co/Xenova/whisper-tiny.en (Apache-2.0; checked 2026-11-14). Referenced as the browser route's downloadable model source; model files are not bundled in Source-Weave.
+- VoltAgent Awesome Agent Skills, https://github.com/VoltAgent/awesome-agent-skills (repository lists MIT; checked 2026-11-27). Used as a discovery catalog and for general skill-quality criteria: clear task-specific descriptions, progressive disclosure, portable paths, and narrowly scoped tools. No listed skill text, code, examples, or assets were copied. The catalog itself states that listed projects are independently maintained and are not audited or guaranteed; each candidate's own license and source must be checked.
 
 ## Distribution
 

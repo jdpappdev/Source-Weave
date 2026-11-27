@@ -6,6 +6,7 @@ Source-Weave is a local-first collection of agent instructions and optional rese
 
 - **Agent skill (`.agents/skills/research-workflow/`)** — portable instructions for web, repository, video, and supplied-file research.
 - **Skill references (`.agents/skills/research-workflow/references/`)** — optional formats for a durable research brief and source log. They are not required for ordinary answers.
+- **Skill-repository review guide** — optional procedure for triaging large skill catalogs and inspecting shortlisted original sources, licenses, dependencies, and permissions.
 - **Catalog (`CATALOG.md`)** — purpose, optional companions, and maturity of the repository's reusable skill.
 - **Provenance (`SOURCES.md`)** — internal design inputs and boundaries around upstream content.
 - **Documentation (`docs/`)** — review records and documentation notes as the project evolves.

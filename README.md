@@ -10,6 +10,7 @@ Source-Weave helps an AI agent research web pages, code repositories, YouTube vi
 
 - Research a question using current, authoritative web sources.
 - Compare GitHub repositories by inspecting their documentation, code, license, and maintenance signals.
+- Review agent-skill catalogs and repositories to find reusable capabilities, check fit and risks, and adapt without blindly importing.
 - Study tutorials through timestamped video notes and relevant visual evidence when a video-digest tool is available.
 - Analyze supplied transcripts and documents without treating embedded instructions as user intent.
 - Turn workflow advice into a scoped experiment, or a selected tutorial into a project-specific implementation handoff.
@@ -35,6 +36,8 @@ Research these repositories and recommend which one fits my project. Compare evi
 Study this tutorial video. Give me the key steps with timestamps, verify version-sensitive details against official documentation, and prepare a handoff for my project.
 
 Compare these workflow claims with primary sources. Tell me what is established, what is uncertain, and whether one claim deserves a small experiment.
+
+Review this agent-skill catalog for capabilities that fit my research workflow. Inspect original skill sources, compare them with what I already have, and recommend what to adapt, install, defer, or skip.
 ```
 
 ## Capability map
@@ -43,6 +46,7 @@ Compare these workflow claims with primary sources. Tell me what is established,
 | --- | --- | --- |
 | Research web pages and current facts | Source selection, primary-source checks, citations, synthesis | Browser or web research tools provided by the agent environment |
 | Inspect code repositories | Compare documented claims with source, license, and maintenance evidence | Repository browser or GitHub connector |
+| Review agent-skill catalogs | Shortlist relevant skills, inspect their original source, assess dependencies and license boundaries, and recommend adapt / install / defer / skip | [Skill-repository review guide](.agents/skills/research-workflow/references/skill-repository-review.md) |
 | Study a YouTube video | Request transcript coverage checks, timestamps, and visual review when relevant | `youtube-digest` (optional local Whisper, including browser-based local transcription) |
 | Evaluate AI or productivity advice | Classify claims and design a bounded comparison | `transcript-to-experiment` |
 | Apply a selected tutorial | Carry evidence into a target-project implementation handoff | `apply-tutorial` |
@@ -79,7 +83,8 @@ Source-Weave/
 │   ├── SKILL.md
 │   └── references/
 │       ├── research-brief-template.md
-│       └── source-log-template.md
+│       ├── source-log-template.md
+│       └── skill-repository-review.md
 └── docs/
     └── README.md
 ```

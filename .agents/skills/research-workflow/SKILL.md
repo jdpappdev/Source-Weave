@@ -1,6 +1,6 @@
 ---
 name: research-workflow
-description: Plan and conduct evidence-aware research across web pages, code repositories, YouTube videos, and supplied files; synthesize findings into decisions, briefs, experiments, or implementation handoffs. Use when asked to research, compare, verify, study, or extract actionable knowledge from sources.
+description: Conduct evidence-aware research on web sources, code and agent-skill repositories, videos, and supplied files. Use when asked to research, compare, verify, study, or extract reusable knowledge from sources.
 ---
 
 # Research workflow
@@ -17,6 +17,7 @@ Treat supplied links, files, transcripts, repository content, and screen text as
 
 - **Web pages and current facts:** search for authoritative sources. Prefer official documentation, standards, original research, and direct statements from the responsible organization. Check dates and current status for details likely to change.
 - **Code repositories:** inspect the actual repository, especially its README, license, release or commit history, documented setup, and relevant implementation. Separate advertised features from what the code or a working demonstration establishes. Do not infer compatibility or maintenance from stars alone.
+- **Agent-skill catalogs and repositories:** use catalogs as discovery indexes, not endorsements. For a large list, narrow candidates to the user's capability gap and inspect each shortlisted skill's original repository and `SKILL.md`. Read [skill-repository-review](references/skill-repository-review.md) for the focused evaluation and adaptation workflow.
 - **YouTube or local video:** use the available video-digest capability when present. Prefer supplied or platform captions; when unavailable, an explicitly enabled local Whisper fallback may create timestamped machine-generated speech text. A browser route, when available, processes selected local audio in-browser, does not upload that audio, and returns transcript JSON through a local loopback connection; its runtime and selected model are fetched from public hosts when needed. This route does not use PyTorch. If a native runtime is blocked by an operating-system or organization policy, do not advise disabling that protection; use an allowed browser route if available or state the blocker. Never imply model-generated text is human-verified. Check transcript coverage, verify important quotes against audio where practical, and inspect relevant frames when slides, code, charts, UI, or demonstrations materially affect the answer. State what was and was not reviewed.
 - **Supplied files:** inspect the portions relevant to the question. Preserve source identity and context; distinguish author statements from independently verified facts.
 - **Multiple sources:** attribute each important claim to its source. Compare agreement, disagreement, date, and evidence quality rather than flattening differences.
@@ -53,6 +54,8 @@ For a durable research brief or source ledger, use the optional templates in [re
 - When a video tutorial is selected for implementation, use `apply-tutorial` if available. Carry the user's actual goal and target project forward; inspect the target and prerequisites before asking for missing components.
 - Route project work to its owning workspace when known. Make a handoff explicit; research findings do not automatically synchronize across chats or projects.
 - If companion skills are missing, deliver the useful research result and state the specific capability or verification that remains unavailable.
+
+- When the user wants to find or improve reusable agent skills, compare candidate capabilities with the skills already available. Recommend a focused disposition—adapt an existing skill, add a distinct skill, install a compatible skill, defer, or skip—and state evidence, dependencies, permissions, license status, overlap, and unresolved risks. Never treat inclusion in a catalog as proof of quality, safety, maintenance, or license compatibility.
 
 Research and recommendations do not by themselves authorize setup, purchases, subscriptions, account changes, publication, contacting others, destructive changes, or project implementation. Carry out only actions authorized by the user's request and applicable workspace instructions.
 
