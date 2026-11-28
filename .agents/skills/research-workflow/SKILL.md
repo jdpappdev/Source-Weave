@@ -1,6 +1,6 @@
 ---
 name: research-workflow
-description: Conduct evidence-aware research on web sources, code and agent-skill repositories, videos, and supplied files. Use when asked to research, compare, verify, study, or extract reusable knowledge from sources.
+description: Conduct evidence-aware research across web sources, repositories, videos, and supplied files. Use for source comparison, claim checking, or decision-focused synthesis. In Video Digest, use the video skill for transcript and frame extraction; use this skill alongside it when broader fact-checking or recommendations are needed.
 ---
 
 # Research workflow
